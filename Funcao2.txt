@@ -1,0 +1,3 @@
+1) A diferença de valores ocorre, principalmente por causa que o após a linha 21 o valor da variável é mudada, se mudasse o "aluno" para "nome" na linha 23, não imprimiria nada pois não existe uma variável global ou local que tenha a nomenclatura de "nome".
+
+2) Todas a funções que tem o seu tipo diferente de void tem retorno, ele usa o retorno da função aleat() para definir o valor de x, usa a função dobro() para definir o valor de num, e se o dobro(x) for maior que o dobro de um numero aleatório ele mostra o dobro(x), as únicas que possuem parâmetro são as dobro() e mostra_dobro(), por que elas precisam trabalhar com a variável que existe localmente em outro lugar.
